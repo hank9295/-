@@ -1,10 +1,28 @@
 public class Test{	
     public static void main(String[] args){
-	    for ( int i=0; i<10; i++){
-			for ( int j=0; j<10; j++){
-			System.out.printf("%d*%d=%d",i,j,i*j);
-			}
-			System.out.println();
-		}
+		
+		for(int i=0;i<9;i++){
+			for(int y=0;y<=10;y++){
+				if(y-i>5){
+					System.out.printf("*"); 			
+	
+				}
+				else if(i-y>3) {
+				System.out.printf("*"); 
+
+				}		
+
+			}	
+        System.out.println(); 			
+		}	
 	}
-}	
+}
+/* ***** *****
+   ****   ****
+   ***     ***
+   **       **
+   *         *
+   **       **
+   ***     ***
+   ****   **** 
+   ***** ***** */
